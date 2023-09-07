@@ -19,3 +19,15 @@ Route::get('/home', function () {
 Route::get('/contacts', function () {
     return view('contacts');
 });
+Route::get('/info', function () {
+    return view('info');
+});
+Route::get('/saluti', function () {
+    return view('saluti');
+});
+Route::get('/passion', function () {
+    return view('passion');
+});
+Route::get('/game', function () {
+    return view('game');
+});
